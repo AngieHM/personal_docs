@@ -1,0 +1,17 @@
+{
+  "name": "backend",
+  "version": "0.0.0",
+  "description": "backend",
+  "main": "backend.js",
+  "dependencies": {
+    "cot-lib": "^5.1.2",
+    "url-search-params": "^0.10.0",
+    "rxjs": "^5.5.8"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}

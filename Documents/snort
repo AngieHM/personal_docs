@@ -1,0 +1,41 @@
+First attempts
+
+
+alert tcp any any -> any any (msg:"Facebook"; content:"facebook"; nocase;sid:100001; rev:001;)
+
+alert udp any any -> any any (msg:"Facebook"; content:"facebook"; nocase;sid:100002; rev:001;)
+
+alert tcp any any -> any any (msg:"Youtube"; content:"youtube"; nocase;sid:100003; rev:001;)
+
+alert udp any any -> any any (msg:"Youtube"; content:"youtube"; nocase;sid:100004; rev:001;)
+
+activate udp  any any -> any any (msg:”youtubeConnect”;isdataat:900,relative; sid:100005; rev:1; activates:1;)
+
+dynamic tcp any any -> any any (activated_by:1; count:2; sid:100006;)
+
+
+second attempt 
+
+
+alert tcp any any -> any any (msg:"Facebook"; content:"facebook"; nocase;sid:100001; rev:001;)
+
+alert udp any any -> any any (msg:"Facebook"; content:"facebook"; nocase;sid:100002; rev:001;)
+
+alert tcp  any any -> any any (msg:"youtubeConnect";content:"youtube";nocase;isdataat:900,relative; sid:100005; rev:1;)
+
+alert tcp  any any -> any any (msg:"Huge payload";isdataat:900,relative; sid:100006; rev:1;)
+
+
+third attempt 
+
+
+alert tcp any any -> any any (msg:"Facebook"; content:"facebook"; nocase;sid:100001; rev:001;)
+
+alert udp any any -> any any (msg:"Facebook"; content:"facebook"; nocase;sid:100002; rev:001;)
+
+alert tcp  any any -> any any (msg:"youtubeConnect";content:"youtube";nocase;sid:100004; rev:1;)
+
+#alert tcp  any any -> any any (msg:"youtubeConnectC";flow:to_client,established;isdataat:900,relative;sid:100005; rev:1;)
+
+#alert tcp  any any -> any any (msg:"Huge payload";isdataat:900,relative; sid:100006; rev:1;)
+

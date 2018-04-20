@@ -1,0 +1,416 @@
+<html>
+	<head>
+	<title></title>
+	<meta content="">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" 
+		  integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" 
+		  crossorigin="anonymous">
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/accordion.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.10.0/baguetteBox.min.css" />
+    <link rel="stylesheet" href="css/compact-gallery.css">
+	 <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" 
+		    integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" 
+		    crossorigin="anonymous">
+	</script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" 
+			integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" 
+			crossorigin="anonymous">
+	</script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" 
+			integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" 
+			crossorigin="anonymous">
+	</script>
+	</head>
+	<body>
+ 		<nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+			<a class="navbar-brand" href="#">Mongrel fashion</a>
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+			<span class="navbar-toggler-icon"></span>
+			</button>
+	  		<div class="collapse navbar-collapse" id="navbarNavDropdown">
+				<ul class="navbar-nav">
+					<li class="nav-item active">
+						<a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#">Features</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#">Pricing</a>
+					</li>
+					<li class="nav-item dropdown dropdown-large">
+						<a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" 
+							data-toggle="dropdown" 
+							aria-haspopup="true" 
+							aria-expanded="false">
+						  	Items
+						</a>
+						<ul class="dropdown-menu dropdown-menu-large row" aria-labelledby="navbarDropdownMenuLink">
+							<div class="container">
+								<div class="row">
+									<li class="col-md-4">
+										<ul>
+											<li class="dropdown-header">Sword of Truths</li>
+											<li><a href="#">Example</a></li>
+											<li><a href="#">Example</a></li>
+											<li><a href="#">Example</a></li>
+											<li><a href="#">Example</a></li>
+											<li><a href="#">Example</a></li>
+											<li><a href="#">Example</a></li>
+											<li class="divider"></li>
+											<li class="dropdown-header">Theme/Character</li>
+											<li><a href="#">Example</a></li>
+											<li><a href="#">Example</a></li>
+											<li><a href="#">Example</a></li>
+											<li><a href="#">Example</a></li>
+									
+										</ul>
+									</li>
+									<li class="col-md-4">
+										<ul>
+											<li class="dropdown-header">Sword of Truths</li>
+											<li><a href="#">Example</a></li>
+											<li><a href="#">Example</a></li>
+											<li><a href="#">Example</a></li>
+											<li><a href="#">Example</a></li>
+											<li><a href="#">Example</a></li>
+											<li><a href="#">Example</a></li>
+											<li class="divider"></li>
+											<li class="dropdown-header">Theme/Character</li>
+											<li><a href="#">Example</a></li>
+											<li><a href="#">Example</a></li>
+											<li><a href="#">Example</a></li>
+											<li><a href="#">Example</a></li>
+									
+										</ul>
+									</li>
+									<li class="col-md-4">
+										<ul>
+											<li class="dropdown-header">by brand</li>
+											<li><a href="#">Example</a></li>
+											<li><a href="#">Example</a></li>
+											<li><a href="#">Example</a></li>
+											<li><a href="#">Example</a></li>
+											<li><a href="#">Example</a></li>
+											<li><a href="#">Example</a></li>
+											<li class="divider"></li>
+											<li>
+												<img class"img-responsive" src="http://placehold.it/200x150"/>
+											</li>
+										</ul>
+									</li>
+								</div>
+							</div>
+						</ul>
+					</li>
+				</ul>
+    		</div>
+    		<p>Login</p>
+		</nav>
+		<div class="container"></div>
+		<div class="container-fluid">
+			<div class="row">
+				<div id="demo" class="col-md-11 carousel slide" data-ride="carousel">
+
+				  <!-- Indicators -->
+				  <ul class="carousel-indicators">
+				    <li data-target="#demo" data-slide-to="0" class="active"></li>
+				    <li data-target="#demo" data-slide-to="1"></li>
+				    <li data-target="#demo" data-slide-to="2"></li>
+				  </ul>
+
+				  <!-- The slideshow -->
+				  <div class="carousel-inner inner">
+				    <div class="carousel-item active">
+				      <img src="images/fashionwall.jpg" alt="Los Angeles">
+				    </div>
+				    <div class="carousel-item">
+				      <img src="images/fashionwall1.jpg" alt="Chicago">
+				    </div>
+				    <div class="carousel-item">
+				      <img src="images/fashionwall2.jpg" alt="New York">
+				    </div>
+				  </div>
+
+				  <!-- Left and right controls -->
+				  <a class="carousel-control-prev" href="#demo" data-slide="prev">
+				    <span class="carousel-control-prev-icon"></span>
+				  </a>
+				  <a class="carousel-control-next" href="#demo" data-slide="next">
+				    <span class="carousel-control-next-icon"></span>
+				  </a>
+
+				</div>
+				<div class="col-md-1 side">
+					<div class="wrapper">
+
+					    <nav id="sidebar">
+					        <!-- Sidebar Header -->
+					        <div class="sidebar-header">
+					            <h3>Collapsible Sidebar</div>
+					        </div>
+
+					        <!-- Sidebar Links -->
+					        <ul class="list-unstyled components">
+					            <li class="active"><a href="#">TRENDING</a></li>
+					            <li><a href="#">POPULAR</a></li>
+
+					            <li><!-- Link with dropdown items -->
+					                <a href="#homeSubmenu" data-toggle="collapse" aria-expanded="false">LISTINGS</a>
+					                <ul class="collapse list-unstyled" id="homeSubmenu">
+					                    <li><a href="#">Page</a></li>
+					                    <li><a href="#">Page</a></li>
+					                    <li><a href="#">Page</a></li>
+					                </ul>
+
+					            <li><a href="#">BRANDS</a></li>
+					            <li><a href="#">SEARCH</a></li>
+					            <li><a href="#">VENDORS</a></li>
+					            <li><a href="#">BUYERS</a></li>
+					            <li><a href="#">STORES</a></li>
+					        </ul>
+					    </nav>
+
+				</div>
+			</div>
+			</div>
+		<div class="container overlay">
+			<h2>Mg Fashion</h2>
+			<p>Dare to dare</p>
+		</div>
+		<div class="container items">
+			<h2>BRANDS</h2>
+			<hr>
+			 <!-- Tabs -->
+<section id="tabs">
+	<div class="container">
+		<div class="row">
+			<div class="col-xs-12 ">
+				<nav>
+					<div class="nav nav-tabs nav-fill" id="nav-tab" role="tablist">
+						<a class="nav-item nav-link active" id="nav-home-tab" data-toggle="tab" href="#nav-home" role="tab" aria-controls="nav-home" aria-selected="true">Women</a>
+						<a class="nav-item nav-link" id="nav-profile-tab" data-toggle="tab" href="#nav-profile" role="tab" aria-controls="nav-profile" aria-selected="false">Men</a>
+						<a class="nav-item nav-link" id="nav-contact-tab" data-toggle="tab" href="#nav-contact" role="tab" aria-controls="nav-contact" aria-selected="false">Kids</a>
+						<a class="nav-item nav-link" id="nav-about-tab" data-toggle="tab" href="#nav-about" role="tab" aria-controls="nav-about" aria-selected="false">Others</a>
+					</div>
+				</nav>
+				<div class="tab-content py-3 px-3 px-sm-0" id="nav-tabContent">
+					<div class="container accordion">
+					  <ul>
+					    <li>
+					      <div> <a href="#">
+					        <h2>Ballerines</h2>
+					        <p>Shop</p>
+					        </a> </div>
+					    </li>
+					    <li>
+					      <div> <a href="#">
+					        <h2>Jewellery</h2>
+					        <p>Shop</p>
+					        </a> </div>
+					    </li>
+					    <li>
+					      <div> <a href="#">
+					        <h2>Sneakers</h2>
+					        <p>Shop</p>
+					        </a> </div>
+					    </li>
+					    <li>
+					      <div> <a href="#">
+					        <h2>Dresses</h2>
+					        <p>Shop</p>
+					        </a> </div>
+					    </li>
+					    <li>
+					      <div> <a href="#">
+					        <h2>Shoes</h2>
+					        <p>Shop</p>
+					        </a> </div>
+					    </li>
+					    <li>
+					      <div> <a href="#">
+					        <h2>Bags</h2>
+					        <p>Shop</p>
+					        </a> </div>
+					    </li>
+					  </ul>
+					</div>
+					<div class="tab-pane fade" id="nav-profile" role="tabpanel" aria-labelledby="nav-profile-tab">
+						Et et consectetur ipsum labore excepteur est proident excepteur ad velit occaecat qui minim occaecat veniam. Fugiat veniam incididunt anim aliqua enim pariatur veniam sunt est aute sit dolor anim. Velit non irure adipisicing aliqua ullamco irure incididunt irure non esse consectetur nostrud minim non minim occaecat. Amet duis do nisi duis veniam non est eiusmod tempor incididunt tempor dolor ipsum in qui sit. Exercitation mollit sit culpa nisi culpa non adipisicing reprehenderit do dolore. Duis reprehenderit occaecat anim ullamco ad duis occaecat ex.
+					</div>
+					<div class="tab-pane fade" id="nav-contact" role="tabpanel" aria-labelledby="nav-contact-tab">
+						Et et consectetur ipsum labore excepteur est proident excepteur ad velit occaecat qui minim occaecat veniam. Fugiat veniam incididunt anim aliqua enim pariatur veniam sunt est aute sit dolor anim. Velit non irure adipisicing aliqua ullamco irure incididunt irure non esse consectetur nostrud minim non minim occaecat. Amet duis do nisi duis veniam non est eiusmod tempor incididunt tempor dolor ipsum in qui sit. Exercitation mollit sit culpa nisi culpa non adipisicing reprehenderit do dolore. Duis reprehenderit occaecat anim ullamco ad duis occaecat ex.
+					</div>
+					<div class="tab-pane fade" id="nav-about" role="tabpanel" aria-labelledby="nav-about-tab">
+						Et et consectetur ipsum labore excepteur est proident excepteur ad velit occaecat qui minim occaecat veniam. Fugiat veniam incididunt anim aliqua enim pariatur veniam sunt est aute sit dolor anim. Velit non irure adipisicing aliqua ullamco irure incididunt irure non esse consectetur nostrud minim non minim occaecat. Amet duis do nisi duis veniam non est eiusmod tempor incididunt tempor dolor ipsum in qui sit. Exercitation mollit sit culpa nisi culpa non adipisicing reprehenderit do dolore. Duis reprehenderit occaecat anim ullamco ad duis occaecat ex.
+					</div>
+				</div>
+			
+			</div>
+		</div>
+	</div>
+</section>
+<!-- ./Tabs -->
+</div>
+		<div class="container items">
+			<h2>TRENDING</h2>
+			<hr>
+		<section class="gallery-block compact-gallery">
+        <div class="container">
+            <div class="row no-gutters">
+                <div class="col-md-6 col-lg-4 item zoom-on-hover">
+                    <a class="lightbox" href="../img/image1.jpg">
+                        <img class="img-fluid image" src="images/trend.jpg">
+                        <span class="description">
+                            <span class="description-heading">Dress by: Angel M</span>
+                            <span class="description-body">Renew your experience with fashion with this one dress.</span>
+                        </span>
+                    </a>
+                </div>
+                <div class="col-md-6 col-lg-4 item zoom-on-hover">
+                    <a class="lightbox" href="images/image2.jpg">
+                        <img class="img-fluid image" src="images/trend1.jpg">
+                        <span class="description">
+                             <span class="description-heading">Dress by: Angel M</span>
+                            <span class="description-body">Renew your experience with fashion with this one dress.</span>
+                        </span>
+                    </a>
+                </div>
+                <div class="col-md-6 col-lg-4 item zoom-on-hover">
+                    <a class="lightbox" href="../img/image3.jpg">
+                        <img class="img-fluid image" src="images/trend2.jpg">
+                        <span class="description">
+                             <span class="description-heading">Dress by: Angel M</span>
+                            <span class="description-body">Renew your experience with fashion with this one dress.</span>
+                        </span>
+                    </a>
+                </div>
+                <div class="col-md-6 col-lg-4 item zoom-on-hover">
+                    <a class="lightbox" href="../img/image4.jpg">
+                        <img class="img-fluid image" src="images/trendn.jpg">
+                        <span class="description">
+                             <span class="description-heading">Dress by: Angel M</span>
+                            <span class="description-body">Renew your experience with fashion with this one dress.</span>
+                        </span>
+                        </a>
+                    </div>
+                <div class="col-md-6 col-lg-4 item zoom-on-hover">
+                    <a class="lightbox" href="../img/image5.jpg">
+                        <img class="img-fluid image" src="images/trendn.webp">
+                        <span class="description">
+                             <span class="description-heading">Dress by: Angel M</span>
+                            <span class="description-body">Renew your experience with fashion with this one dress.</span>
+                        </span>
+                    </a>
+                </div>
+                <div class="col-md-6 col-lg-4 item zoom-on-hover">
+                    <a class="lightbox" href="images/trendn1.jpg">
+                        <img class="img-fluid image" src="images/trendn.webp">
+                        <span class="description">
+                             <span class="description-heading">Dress by: Angel M</span>
+                            <span class="description-body">Renew your experience with fashion with this one dress.</span>
+                        </span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+		</div>
+		<div class="container items">
+			<h2>POPULAR</h2>
+			<hr>
+			<div class="carousel slide" data-ride="carousel">
+				<div class="carousel-inner">
+				    <div class="carousel-item active">
+				        <div class="row">
+				            <div class="col-sm">
+				            	<img class="d-block w-100" src="images/pop5.jpg" alt="1 slide">
+				            	<button>Shop now</button>
+				            </div>
+				            <div class="col-sm">
+				            	<img class="d-block w-100" src="images/pop3.jpg" alt="2 slide">
+				            	<button>Shop now</button>
+				            </div>
+				            <div class="col-sm">
+				            	<img class="d-block w-100" src="images/pop2.jpg" alt="3 slide">
+				            	<button>Shop now</button>
+				            </div>
+				        </div>
+				    </div>
+		            <div class="carousel-item">
+		                <div class="row">
+		                   <div class="col-sm">
+				            	<img class="d-block w-100" src="images/pop5.jpg" alt="1 slide">
+				            	<button>Shop now</button>
+				            </div>
+				            <div class="col-sm">
+				            	<img class="d-block w-100" src="images/pop3.jpg" alt="2 slide">
+				            	<button>Shop now</button>
+				            </div>
+				            <div class="col-sm">
+				            	<img class="d-block w-100" src="images/pop2.jpg" alt="3 slide">
+				            	<button>Shop now</button>
+				            </div>
+		                </div>
+	            	</div>
+        		</div>
+    		</div>
+		</div>
+		<div class="footer">
+		</div>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.10.0/baguetteBox.min.js"></script>
+    <script>
+        baguetteBox.run('.compact-gallery', { animation: 'slideIn'});
+    </script>
+    <div class="footer-bottom">
+			<div class="row">
+				<div class="col-md-3">
+					<h4>Shop</h4>
+					<li><a href="#">Bags</a></li>
+					<li><a href="#">Shoes</a></li>
+					<li><a href="#">Dreses</a></li>
+					<li><a href="#">Heels</a></li>
+					<li><a href="#">Shirts</a></li>
+					<li><a href="#">Suits</a></li>
+					<li class="divider"></li>
+					<li class="dropdown-header">Others</li>
+					<li><a href="#">Glasses</a></li>
+					<li><a href="#">Jewellery</a></li>
+					<li><a href="#">Watches</a></li>
+					<li><a href="#">Lingerie</a></li>
+				</div>
+				<div class="col-md-3">
+					<h4>Other services</h4>
+					<li><a href="#">Brands</a></li>
+					<li><a href="#">Talks</a></li>
+					<li><a href="#">Events</a></li>
+					<li><a href="#">Runway</a></li>
+				</div>
+				<div class="col-md-3">
+					<h4>Help</h4>
+					<li><a href="#">FAQ</a></li>
+					<li><a href="#">Stores</a></li>
+					<li><a href="#">Pricing</a></li>
+					<li><a href="#">Shops</a></li>
+				</div>
+				<div class="col-md-3">
+					<h4>Newsletter</h4>
+					<form>
+						  <fieldset>
+						    <div class="form-group">
+						      <label for="stores">Newsletter</label>
+						      <input type="text" class="form-control" placeholder="news">
+						    </div>
+						    <div class="form-group">
+						      <label for="stores">Stores</label>
+						      <input type="text" class="form-control" placeholder="stores">
+						    </div>
+						  </fieldset>
+					</form>
+				</div>
+			</div>
+				<p>Mongrel Fashion all right reserved</p>
+		</div>
+  	</body>
+</html>

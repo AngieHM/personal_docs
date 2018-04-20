@@ -1,0 +1,113 @@
+
+.img-responsive{
+  width: 100%;
+}
+.bg-light {
+    background: #fff!important;
+    padding: 30px;
+}
+.navbar-light .navbar-nav .nav-link {
+    color: #333;
+}
+
+.navbar-light .navbar-nav .active>.nav-link{
+    color: #333;
+}
+.navbar-light .navbar-brand {
+    color: #333;
+}
+.fashion-container{
+  width: 100%;
+  background-image: url("../../images/fashion.jpg");
+  background-size: cover;
+  min-height: 400px;
+}
+.checkout-container{
+  width: 100%;
+  background-image: url("../../images/checkout.jpg");
+  background-size: cover;
+  min-height: 500px;
+}
+.fashion-container h2{
+  color: white;
+  margin: 0;
+}
+.overlay{
+  width: 100%;
+  position: absolute;
+  top: 30%;
+  left: 10%;
+  color: #ffffff!important;
+  text-align: center;
+}
+.overlay h2{
+  font-size: 100px;
+  font-family: 'Lato', sans-serif;
+}
+.overlay p{
+  color: #ffffff!important;
+}
+.container{
+  margin-top: 15px;
+}
+.items, .get h2, p{
+  text-align: center;
+  color: #801515;
+}
+.items hr{
+  color: #801515;
+  border-color: #801515;
+  width: 50%;
+}
+.get hr{
+  color: #801515;
+  border-color: #801515;
+  width: 50%;
+}
+.items button{
+  text-align: center;
+  color: #fff;
+  background: #801515;
+  border: 0;
+  border-radius: 0px;
+  padding: 10px;
+  margin: auto;
+}
+
+.col-sm img{
+  width: 100%;
+}
+.col-md-8 img{
+  width: 100%;
+}
+.col-md-2{
+  vertical-align: middle;
+}
+
+.col-md-2 img{
+  width: 100%;
+}
+.shop {
+  padding: 5px;
+}
+.shop .col-md-3{
+  padding-top: 20px;
+}
+.shop .col-md-3 button{
+  margin-top: 5px;
+}
+@media (max-width: 768px) {
+  .dropdown-menu-large {
+    margin-left: 0 ;
+    margin-right: 0 ;
+  }
+  .dropdown-menu-large > li {
+    margin-bottom: 30px;
+  }
+  .dropdown-menu-large > li:last-child {
+    margin-bottom: 0;
+  }
+  .dropdown-menu-large .dropdown-header {
+    padding: 3px 15px !important;
+  }
+}

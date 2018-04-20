@@ -1,0 +1,14 @@
+alert tcp $HOME_NET any -> any any (msg:"Facebook"; content:"facebook"; nocase;sid:100001; rev:001;)
+
+alert udp $HOME_NET any -> any any (msg:"Facebook"; content:"facebook"; nocase;sid:100002; rev:001;)
+
+#alert tcp $HOME_NET any -> any any (msg:"youtubeConnect";content:"youtube";nocase;sid:100004; rev:1;)
+
+alert tcp $HOME_NET any -> any any (msg:"payload";flow:to_client,established;stream_size:server,>,22000000;threshold:type limit, track by_dst, count 6 , seconds 1;sid:100005; rev:1;)
+
+#alert tcp  any any -> any any (msg:"Huge payload";isdataat:1000,relative; sid:100006; rev:1;)
+
+#alert tcp $HOME_NET any -> any any (msg:"payloadYoutube";flow:to_client,established;content:"youtube";nocase;sid:100007; rev:1;)
+
+#alert tcp  any any -> any any (msg:"HugePayload";flow:to_client,established;dsize:>1200;threshold:type limit, track by_dst, count 100000 , seconds 1;sid:100008; rev:1;)
+alert udp any any -> any 5060 (sip_method:invite, cancel; sid:1000000)

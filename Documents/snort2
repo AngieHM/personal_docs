@@ -1,0 +1,15 @@
+sudo barnyard2 -c /etc/snort/barnyard2.conf -d /var/log/snort -f snort.u2 -w /var/log/snort/barnyard2.waldo
+
+
+threshold:type limit, track by_dst, count 6 , seconds 1;
+
+snort -i br_test -c /etc/snort/snort.conf -l /var/log/snort/
+
+
+alert tcp any any -> any any (msg:"Facebook"; content:"facebook"; nocase;sid:100001; rev:001;)
+
+alert tcp  any any -> any any (msg:"youtubeConnect";content:"youtube";nocase;sid:100004; rev:1;)
+
+
+
+
